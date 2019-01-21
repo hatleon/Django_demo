@@ -24,7 +24,9 @@ https://shenxgan.github.io/django/
 
 （含pdf 代码下载 自强学堂）Django 基础教程
 链接: https://pan.baidu.com/s/1rap4t20 密码: uta2
+
 https://code.ziqiangxuetang.com/django/django-tutorial.html
+
 自强学堂 源代码下载：https://github.com/twz915/zqxt
 
 ![image](https://github.com/xinan711456/Django_demo/index.png)
