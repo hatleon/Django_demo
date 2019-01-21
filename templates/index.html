@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+    <h1>用户输入：</h1>
+    <link rel="stylesheet" href="/static/css/bootstrap.css">
+    <script src="/static/js/jquery-3.2.1.js"> </script>
+    <script src="/static/js/bootstrap.js"> </script>
+    <form action="/index/" method="post">
+        {% csrf_token %}   <!--加入这行 -->
+        用户名：<input type="text" name="username" /><br />
+        <br />
+        密&nbsp;&nbsp;&nbsp;码：<input type="password" name="password" /><br />
+        <br />
+        <input type="submit" value="提交" class="btn btn-primary"/>
+        <!--button type="button" class="btn btn-primary">原始按钮</button-->
+    </form>
+
+    <h1>用户展示：</h1>
+        <table border="0">
+            <thead>
+                <tr>用户名</tr>
+                <tr>密码</tr>
+            </thead>
+            <tbody>
+                {% for item in data %}
+                <tr>
+                    <td>{{ item.user }}</td>
+                    <td>{{ item.pwd }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+</body>
+</html>
