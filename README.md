@@ -29,6 +29,9 @@ https://code.ziqiangxuetang.com/django/django-tutorial.html
 
 自强学堂 源代码下载：https://github.com/twz915/zqxt
 
+第一幅图：交互
 ![image](https://github.com/xinan711456/Django_demo/raw/master/static/images/index.png)
 
+
+第二幅图：登录
 ![image](https://github.com/xinan711456/Django_demo/raw/master/static/images/login.png)
